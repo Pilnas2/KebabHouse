@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+header {
+    background-color: #333;
+    height: 40px;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.logo img {
+    margin-top: 50px;
+    height: 80px; /* Adjust the height to fit your header */
+    width: auto; /* Keeps the logo's aspect ratio */
+    border-radius: 50%; /* Makes the image round */
+    border: 2px solid #fff;
+    
+}
+
+#hero {
+    background-image: url('images/kebabTortila.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 20px;
+    color: #e13d3d;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: #ff4747;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e13d3d;
+}
+
+#order {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.order-info h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.phone-number {
+    color: #ff4747;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu-item {
+    background-color: #444;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    width: 250px;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.menu-item p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.menu-item span {
+    color: #ff4747;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 10px;
+}
